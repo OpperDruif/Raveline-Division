@@ -3133,7 +3133,6 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 12rem;
   padding-bottom: 8rem;
-  background-color: #3b0d11;
   font-family: "Open Sans", sans-serif;
   font-size: 1.7rem;
   line-height: 1.882;
@@ -3151,8 +3150,8 @@ html.no-csstransitions .hero-content {
 }
 
 .s-footer .btn--footer {
-  border-color: #21070a;
-  background-color: #21070a;
+  border-color: #292830;
+  background-color: #292830;
   padding: 0 4rem;
 }
 
