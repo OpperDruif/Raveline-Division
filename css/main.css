@@ -3402,6 +3402,18 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/header-bgs/volunteer-header-bg-2000.jpg);
 }
 
+.page-header--ESCrew {
+  background-image: url(../images/header-bgs/VES-header-bg.jpg)
+}
+
+.page-header--Merch {
+  background-image: url(../images/header-bgs/Merch-header-bg.jpg)
+}
+
+.page-header--Digital {
+  background-image: url(../images/header-bgs/Digital-header-bg.jpg)
+}
+
 .page-header__content {
   position: relative;
 }
