@@ -3394,6 +3394,10 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/header-bgs/connect-header-bg-2000.jpg);
 }
 
+.page-header--Creative {
+  background-image: url(../images/header-bgs/hero-CDV.jpg);
+}
+
 .page-header--volunteer {
   background-image: url(../images/header-bgs/volunteer-header-bg-2000.jpg);
 }
@@ -3578,5 +3582,32 @@ html.no-csstransitions .hero-content {
   }
 
 }
+
+
+/* ------------------------------------------------------------------- 
+ * Creative Division Vacatures
+ * ------------------------------------------------------------------- */
+.division-block {
+    padding: 6rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.division-block h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.vacature-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.vacature-list li {
+    margin-bottom: 1rem;
+}
+
 
 /*# sourceMappingURL=main.css.map */
