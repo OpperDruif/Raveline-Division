@@ -15,8 +15,8 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <!-- script
     ================================================== -->
@@ -49,17 +49,17 @@
     <header class="s-header">
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
+                <img src="../images/logo.png" alt="Homepage">
             </a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">The Division</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="merch.html">Merchandise</a></li>
-                <li><a href="vacature.html">Join the Tribe</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">The Division</a></li>
+                <li><a href="../events.html">Events</a></li>
+                <li><a href="../merch.html">Merchandise</a></li>
+                <li><a href="../vacature.html">Join the Tribe</a></li>
             </ul>
         </nav>
 
@@ -74,7 +74,7 @@
         <div class="gradient-overlay"></div>
         <div class="row page-header__content">
             <div class="column">
-                <h1>Social media planner</h1>
+                <h1>Social Media Planner</h1>
             </div>
         </div>
 
@@ -82,61 +82,108 @@
 
     <!-- Page content 
     ================================================== -->  
+<section class="page-content">
+    <div class="row">
+        <div class="column">
+            <h2 class="h1">Solliciteer voor: Social-Media Planner</h2>
+            <p>Laat je skills spreken en sluit je aan bij de tribe. Vul onderstaand formulier in en we nemen snel contact met je op.</p>
 
-    <section class="page-content">
-        <div class="row">
-            <div class="content-block">
-                <p>
-                    <h3>Social media planner</h3>
-                    Raveline leeft op het ritme van de scene — en online is waar we dat ritme delen. Als Social Media Planner zorg jij dat onze contentlijn strak staat. Je plant, post en monitort. Jij bewaakt de timing, de tone en de flow van alles wat we online delen. Met jouw gevoel voor timing en touch breng je structuur in de storm.
-                </p>
-            </div>
+            <form action="https://formsubmit.co/recruitment@ravelinehq.com" method="POST" class="form">
+                <!-- Verborgen instellingen -->
+                <input type="hidden" name="_subject" value="Nieuwe sollicitatie – Social Media Planner">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://opperdruif.github.io/Raveline-Division/Bedankt.html">
 
-            <div class="content-block">
-                <p>
-                    <h3>💼 Wat ga je doen?</h3>
-                    <li> Opstellen en beheren van een contentkalender voor onze social media-kanalen.</li>
-                    <li> Inplannen van posts, stories, reels en teasers in samenwerking met het creative team.</li>
-                    <li> Monitoren van interactie, statistieken en bereik per kanaal.</li>
-                    <li> Meedenken over campagnes, formats en vaste contentrubrieken.</li>
-                    <li> Zorgen dat elke post klopt: qua toon, stijl én timing.</li>
-                </p>
-            </div>
+                <!-- Invoervelden -->
+                <div class="form-field">
+                    <label for="naam">Naam:</label>
+                    <input type="text" id="naam" name="Naam" required>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>💥 Wat krijg je ervoor terug?</h3>
-                    <li> Een plek in de kern van de Raveline Division Crew, met directe invloed op ons gezicht naar buiten.</li>
-                    <li> Samenwerking met een team van designers, editors, videomakers en strategen.</li>
-                    <li> Je leert plannen, structureren en campagnematig denken in een snelgroeiende community.</li>
-                    <li> Toegang tot crew-uitjes, brainstorms en exclusieve behind-the-scenes momenten.</li>
-                    <li> De kans om je portfolio of ervaring als social manager op te bouwen in de festivalwereld.</li>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="email">E-mailadres:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>🙌 Wat we van jou verwachten</h3>
-                    <li> Je hebt gevoel voor ritme, trends en timing op platforms als Instagram, TikTok en Discord.</li>
-                    <li> Je werkt gestructureerd, communiceert helder en denkt vooruit.</li>
-                    <li> Je hebt ervaring met tools als Meta Business Suite, Later, Buffer of Notion (of wilt leren).</li>
-                    <li> Je begrijpt onze stijl en weet hoe we die online consistent houden.</li>
-                    <li> Je bent beschikbaar voor wekelijkse afstemming met het team.</li>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="motivatie">Wat is je motivatie om Social Media Planner te worden bij Raveline Division?</label>
+                    <textarea id="motivatie" name="Motivatie" rows="4" required></textarea>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>🖤 Vrijwillig — maar niet vrijblijvend</h3>
-                    Deze functie is op vrijwillige basis, maar met veel impact. Jij zorgt ervoor dat onze uitingen niet alleen mooi zijn — maar ook strategisch, goed getimed en doelgericht. Jij houdt het tempo strak en de vibe herkenbaar.
-                    <br>
-                    <h3>📩 Klaar om de hartslag van de tribe te zijn?</h3>
-                    <a href="vacature-vragen/Vragen-WebDevTS.html" class="btn btn--primary">📩 Solliciteer nu!</a> <br>
-                    <em>Rise through sound — and control the feed.</em>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="platforms">Op welke sociale platforms ben je het meest actief, zowel privé als professioneel?</label>
+                    <textarea id="platforms" name="Actieve platforms" rows="3" required></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="interactie">Hoe zou jij onze socials tot leven brengen tussen grote events door?</label>
+                    <textarea id="interactie" name="Social activatie" rows="3" required></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="planning">Heb je ervaring met het opzetten van een contentplanning? Zo ja, welke tools gebruik(te) je?</label>
+                    <textarea id="planning" name="Contentplanning" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="contenttypes">Welke type content werkt volgens jou het best bij een festival-minded community?</label>
+                    <textarea id="contenttypes" name="Contenttypes" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="actualiteit">Hoe zorg jij ervoor dat geplande posts actueel blijven en inspelen op de vibe?</label>
+                    <textarea id="actualiteit" name="Actuele content" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="input">Hoe ga je om met late aanlevering van content binnen een creatief team?</label>
+                    <textarea id="input" name="Omgaan met late input" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="balans">Wat is volgens jou een goede balans tussen informatief en entertainend posten?</label>
+                    <textarea id="balans" name="Contentbalans" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="tone">Welke tone-of-voice zou jij hanteren in onze captions, en waarom?</label>
+                    <textarea id="tone" name="Tone of voice" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="succes">Hoe meet jij of een post “geslaagd” is?</label>
+                    <textarea id="succes" name="Post succes meten" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="trots">Beschrijf een social post of campagne waar je trots op bent:</label>
+                    <textarea id="trots" name="Trots voorbeeld" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="scenario1">📌 Scenario 1: Je hebt een post ingepland voor een merch drop, maar de levering is vertraagd. Hoe communiceer je dit naar de community?</label>
+                    <textarea id="scenario1" name="Scenario: merch vertraging" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="scenario2">📌 Scenario 2: Tijdens een Instagram Q&A komt een negatieve vraag binnen (“Waarom is Raveline zo elitair geworden?”). Reageer je? En zo ja, hoe?</label>
+                    <textarea id="scenario2" name="Scenario: negatieve vraag" rows="3"></textarea>
+                </div>
+
+                <!-- Verstuurknop -->
+                <div class="form-field">
+                    <button type="submit" class="btn btn--primary">🚀 Verstuur sollicitatie</button>
+                </div>
+            </form>
+
+            <p style="margin-top: 2rem;">
+                Problemen met verzenden? Mail handmatig naar 
+                <a href="mailto:recruitment@ravelinehq.com">recruitment@ravelinehq.com</a>.
+            </p>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- end page content-->
 
@@ -180,7 +227,7 @@
             <div class="column large-4 medium-5 tab-full">
                 <div class="footer-logo">
                     <a class="site-footer-logo" href="index.html">
-                        <img src="images/logo.png" alt="Homepage">
+                        <img src="../images/logo.png" alt="Homepage">
                     </a>
                 </div>  <!-- footer-logo -->
                 <p>
@@ -237,8 +284,8 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
 </body>
