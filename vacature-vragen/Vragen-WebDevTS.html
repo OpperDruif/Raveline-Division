@@ -15,8 +15,8 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <!-- script
     ================================================== -->
@@ -49,17 +49,17 @@
     <header class="s-header">
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
+                <img src="../images/logo.png" alt="Homepage">
             </a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">The Division</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="merch.html">Merchandise</a></li>
-                <li><a href="vacature.html">Join the Tribe</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">The Division</a></li>
+                <li><a href="../events.html">Events</a></li>
+                <li><a href="../merch.html">Merchandise</a></li>
+                <li><a href="../vacature.html">Join the Tribe</a></li>
             </ul>
         </nav>
 
@@ -82,64 +82,109 @@
 
     <!-- Page content 
     ================================================== -->  
+<section class="page-content">
+    <div class="row">
+        <div class="column">
+            <h2 class="h1">Solliciteer voor: Webdeveloper / Tech Support</h2>
+            <p>Laat je skills spreken en sluit je aan bij de tribe. Vul onderstaand formulier in en we nemen snel contact met je op.</p>
 
-    <section class="page-content">
-        <div class="row">
-            <div class="content-block">
-                <p>
-                    <h3>Web Developer & Tech Support</h3>
-                    Raveline Division groeit — en dat vraagt om een digitale fundering die staat als een huis. Als Webdeveloper / Tech Support zorg jij ervoor dat onze website,
-                    webshop en bijbehorende tools goed draaien. Je denkt mee in functies, lost bugs op en houdt alles soepel, snel en gebruiksvriendelijk. Achter de schermen,
-                    maar met zichtbare impact.    
-                </p>
-            </div>
+            <form action="https://formsubmit.co/info@ravelinehq.com" method="POST" class="form">
+                <!-- Verborgen instellingen -->
+                <input type="hidden" name="_subject" value="Nieuwe sollicitatie – Webdeveloper / Tech Support">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://jouwdomein.nl/bedankt.html">
 
-            <div class="content-block">
-                <p>
-                    <h3>💼 Wat ga je doen?</h3>
-                    <li> Onderhouden, updaten en optimaliseren van de Raveline-website en webshop.</li>
-                    <li> Oplossen van bugs, technische foutjes en integratieproblemen.</li>
-                    <li> Meedenken over nieuwe functies, structuur of verbeteringen voor gebruikservaring.</li>
-                    <li> Ondersteunen van het team bij technische vragen, koppelingen of platforms.</li>
-                    <li> Zorgen dat onze digitale presence net zo strak is als onze vibe.</li>
-                </p>
-            </div>
+                <!-- Invoervelden -->
+                <div class="form-field">
+                    <label for="naam">Naam:</label>
+                    <input type="text" id="naam" name="Naam" required>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>💥 Wat krijg je ervoor terug?</h3>
-                    <li> Een vaste plek binnen de Raveline Division Crew als digitale kracht.</li>
-                    <li> Toegang tot interne projecten, crew-uitjes en backstage-meetings.</li>
-                    <li> Vrijheid om te bouwen aan een platform dat écht leeft.</li>
-                    <li> Een boost voor je portfolio of werkervaring met real-life impact.</li>
-                    <li> Ruimte voor creativiteit, technische uitdaging en persoonlijke groei.</li>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="email">E-mailadres:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>🙌 Wat we van jou verwachten</h3>
-                    <li> Je hebt ervaring met HTML, CSS, JavaScript en/of CMS-platforms (zoals WordPress, Webflow of Shopify).</li>
-                    <li> Je denkt in oplossingen, test zelf en lost snel op.</li>
-                    <li> Je communiceert helder en schakelt soepel met het team.</li>
-                    <li> Je werkt gestructureerd en hebt oog voor details én gebruiksgemak.</li>
-                    <li> Je bent nieuwsgierig naar nieuwe tools, trends en digitale optimalisatie.</li>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="motivatie">Waarom wil je deze functie?</label>
+                    <textarea id="motivatie" name="Motivatie" rows="4" required></textarea>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>🖤 Vrijwillig — maar niet vrijblijvend</h3>
-                    Deze rol is op vrijwillige basis, maar jouw werk zorgt ervoor dat Raveline digitaal kan groeien, presenteren en verbinden. Jij maakt onze digitale wereld toegankelijk en betrouwbaar — voor crew én community.
-                    <br>
-                    <br>
-                    <h3>📩 Klaar om de hartslag van de tribe te zijn?</h3>
-                    <a href="vacature-vragen/Vragen-WebDevTS.html" class="btn btn--primary">📩 Solliciteer nu!</a> <br>
-                    <em>Rise through sound — and build the backbone.</em>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="community">Wat betekent "community" voor jou in een digitale context?</label>
+                    <textarea id="community" name="CommunityVisie" rows="3" required></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="tools">Met welke tools of talen werk je? (HTML, CSS, JS, CMS, etc.)</label>
+                    <input type="text" id="tools" name="Technische tools" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="ervaring">Ervaring met websites/webshops?</label>
+                    <textarea id="ervaring" name="Technische ervaring" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="probleem">Omschrijf een probleem dat je hebt opgelost:</label>
+                    <textarea id="probleem" name="Probleemoplossing" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="voorkeur">Werk je liever met code of CMS? Waarom?</label>
+                    <textarea id="voorkeur" name="Voorkeur code of CMS" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="deadline">Hoe ga jij om met deadlines of spoedklussen?</label>
+                    <textarea id="deadline" name="Omgaan met deadlines" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="documentatie">Houd je documentatie bij? Zo ja, hoe?</label>
+                    <textarea id="documentatie" name="Documentatie" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="uren">Gemiddeld beschikbare uren per week:</label>
+                    <input type="text" id="uren" name="Beschikbaarheid">
+                </div>
+
+                <div class="form-field">
+                    <label>Beschikbaar in de avond/weekend?</label>
+                    <label><input type="radio" name="Avond/weekend beschikbaarheid" value="Ja"> Ja</label>
+                    <label><input type="radio" name="Avond/weekend beschikbaarheid" value="Nee"> Nee</label>
+                    <label><input type="radio" name="Avond/weekend beschikbaarheid" value="In overleg"> In overleg</label><br>
+                </div>
+
+                <div class="form-field">
+                    <label>Voorkeur voor type taken (meerdere mogelijk):</label>
+                    <label><input type="checkbox" name="Taakvoorkeuren" value="Bugs fixen"> Bugs fixen</label>
+                    <label><input type="checkbox" name="Taakvoorkeuren" value="Nieuwe functies bouwen"> Nieuwe functies bouwen</label>
+                    <label><input type="checkbox" name="Taakvoorkeuren" value="UX/UI verbeteren"> UX/UI verbeteren</label>
+                    <label><input type="checkbox" name="Taakvoorkeuren" value="Integraties & tools"> Integraties & tools</label>
+                    <label><input type="checkbox" name="Taakvoorkeuren" value="Maakt mij niet uit"> Maakt mij niet uit</label><br>
+                </div>
+
+                <div class="form-field">
+                    <label for="portfolio">Portfolio, site of GitHub (optioneel):</label>
+                    <input type="text" id="portfolio" name="Portfolio/GitHub">
+                </div>
+
+                <!-- Verstuurknop -->
+                <div class="form-field">
+                    <button type="submit" class="btn btn--primary">🚀 Verstuur sollicitatie</button>
+                </div>
+            </form>
+
+            <p style="margin-top: 2rem;">
+                Problemen met verzenden? Mail handmatig naar 
+                <a href="mailto:info@ravelinehq.com">info@ravelinehq.com</a>.
+            </p>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- end page content-->
 
@@ -183,7 +228,7 @@
             <div class="column large-4 medium-5 tab-full">
                 <div class="footer-logo">
                     <a class="site-footer-logo" href="index.html">
-                        <img src="images/logo.png" alt="Homepage">
+                        <img src="../images/logo.png" alt="Homepage">
                     </a>
                 </div>  <!-- footer-logo -->
                 <p>
@@ -240,8 +285,8 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
 </body>

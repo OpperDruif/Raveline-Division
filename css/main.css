@@ -59,6 +59,9 @@
  *    ## page content
  *    ## about page
  *    ## event page
+ *  # vacature vragen en components
+ *    ## form
+ *    ## form field
  *
  * =================================================================== */
 
@@ -3619,6 +3622,55 @@ html.no-csstransitions .hero-content {
 
 .vacature-list li {
     margin-bottom: 1rem;
+}
+
+
+/* ------------------------------------------------------------------- 
+ * Vacature formulier
+ * ------------------------------------------------------------------- */
+.form {
+    max-width: 800px;
+    margin-top: 2rem;
+}
+
+.form-field {
+    margin-bottom: 0.8rem; /* minder ruimte tussen de vragen */
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.0rem;
+    background-color: #f9f9f9; /* lichte achtergrond voor contrast */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.05); /* subtiele diepte */
+    transition: border-color 0.3s ease;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+    border-color: #e94e1b; /* Raveline style accentkleur bij focus */
+    outline: none;
+    background-color: #fff;
+}
+
+.form-field label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    font-size: 2.0rem;
+    color: #333;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.form-field input[type="checkbox"],
+.form-field input[type="radio"] {
+    width: auto;
+    margin-right: 0.4rem;
+    vertical-align: middle;
 }
 
 
