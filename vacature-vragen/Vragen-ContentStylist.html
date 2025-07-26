@@ -15,8 +15,8 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <!-- script
     ================================================== -->
@@ -49,17 +49,17 @@
     <header class="s-header">
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
+                <img src="../images/logo.png" alt="Homepage">
             </a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">The Division</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="merch.html">Merchandise</a></li>
-                <li><a href="vacature.html">Join the Tribe</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">The Division</a></li>
+                <li><a href="../events.html">Events</a></li>
+                <li><a href="../merch.html">Merchandise</a></li>
+                <li><a href="../vacature.html">Join the Tribe</a></li>
             </ul>
         </nav>
 
@@ -74,7 +74,7 @@
         <div class="gradient-overlay"></div>
         <div class="row page-header__content">
             <div class="column">
-                <h1>Motion Designer</h1>
+                <h1>Visual Designer</h1>
             </div>
         </div>
 
@@ -82,65 +82,106 @@
 
     <!-- Page content 
     ================================================== -->  
+<section class="page-content">
+    <div class="row">
+        <div class="column">
+            <h2 class="h1">Solliciteer voor: Content Stylist</h2>
+            <p>Ben jij de creatieve geest die vorm en vibe samenbrengt? Vul het formulier in en laat van je horen.</p>
 
-    <section class="page-content">
-        <div class="row">
-            <div class="content-block">
-                <p>
-                    <h3>Motion Designer</h3>
-                    Raveline beweegt - letterlijk. Als Motion Designer breng jij onze visuals tot leven. Van animated logo's tot 
-                    glitchy intros, visualizers, transitions en social content: Jouw werk geeft energie, ritme en sfeer aan ons merk.
-                    Je versterkt campagnes, video's en posts met dynamiek die blijft hangen.
-                </p>
-            </div>
+            <form action="https://formsubmit.co/recruitment@ravelinehq.com" method="POST" class="form">
+                <!-- Verborgen instellingen -->
+                <input type="hidden" name="_subject" value="Nieuwe sollicitatie – Content Stylist">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://opperdruif.github.io/Raveline-Division/Bedankt.html">
 
-            <div class="content-block">
-                <p>
-                    <h3>💼 Wat ga je doen?</h3>
-                    <li> Creëren van animaties, intro/outro-clips, visualizers en effecten.</li>
-                    <li> Meedenken over bewegende elementen in social posts, teasers en reels.</li>
-                    <li> Aanleveren van motion graphics voor gebruik in video-editing of livestream visuals.</li>
-                    <li> Vertalen van de Raveline-identiteit naar dynamische vormtaal.</li>
-                    <li> Samenwerken met visual designers, editors en social planners.</li>
-                </p>
-            </div>
+                <!-- Invoervelden -->
+                <div class="form-field">
+                    <label for="naam">Naam:</label>
+                    <input type="text" id="naam" name="Naam" required>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>💥 Wat krijg je ervoor terug?</h3>
-                    <li> Een plek in de officiële Raveline Division Crew als motion magician.</li>
-                    <li> Creatieve vrijheid binnen een duidelijke stijlrichting.</li>
-                    <li> Toegang tot crew-uitjes, exclusieve drops en behind-the-scenes content.</li>
-                    <li> Veel ruimte om jouw portfolio te vullen met high-energy work.</li>
-                    <li> Een sterk netwerk in de creatieve scene van festivals en ravecultuur.</li>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="email">E-mailadres:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>🙌 Wat we van jou verwachten</h3>
-                    <li> Je hebt ervaring met After Effects, Blender, DaVinci Fusion of vergelijkbare tools.</li>
-                    <li> Je begrijpt tempo, beat, sfeer en storytelling in animatievorm.</li>
-                    <li> Je kunt zelfstandig werken, maar ook in sync met een creatief team.</li>
-                    <li> Je durft te experimenteren met glitch, distortion, type-animatie en layering.</li>
-                    <li> Je bent niet bang om bestaande visuals een nieuwe dimensie te geven.</li>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="motivatie">Wat is jouw motivatie om Content Stylist te worden bij Raveline Division?</label>
+                    <textarea id="motivatie" name="Motivatie" rows="4" required></textarea>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>🖤 Vrijwillig — maar niet vrijblijvend</h3>
-                    Deze functie is op vrijwillige basis, maar jouw werk heeft impact. Jouw animaties versterken onze visuele
-                    identiteit en worden verspreid via social media, video's en visuals die in de scene blijven hangen.
-                    <br>
-                    <br>
-                    <h3>📩 Ready to make Raveline move?</h3>
-                    <a href="vacature-vragen/Vragen-MotionDesigner.html" class="btn btn--primary">📩 Solliciteer nu!</a> <br>
-                    <em>Rise through sound — and let the visuals breathe.</em>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="visie">Wat versta jij onder 'styling' van online content?</label>
+                    <textarea id="visie" name="Stylingvisie" rows="3" required></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="projecttypes">Wat voor type projecten werk je het liefst aan (posts, campagnes, stories, visuals, etc.)?</label>
+                    <input type="text" id="projecttypes" name="Voorkeur projecten" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="tools">Welke tools gebruik jij bij het creëren van content (Canva, Photoshop, Figma, etc.)?</label>
+                    <input type="text" id="tools" name="Tools" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="branding">Hoe zorg je dat content aansluit bij onze huisstijl en sfeer?</label>
+                    <textarea id="branding" name="Huisstijl aansluiten" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="samenwerken">Werk je liever zelfstandig of samen met anderen? Waarom?</label>
+                    <textarea id="samenwerken" name="Samenwerken of zelfstandig" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="feedback">Hoe ga je om met feedback op visuals of social content?</label>
+                    <textarea id="feedback" name="Feedback aanpak" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="uren">Gemiddeld beschikbare uren per week:</label>
+                    <input type="text" id="uren" name="Beschikbaarheid">
+                </div>
+
+                <div class="form-field">
+                    <label>Ben je beschikbaar in de avond of het weekend?</label>
+                    <label><input type="radio" name="Avond/weekend beschikbaarheid" value="Ja"> Ja</label>
+                    <label><input type="radio" name="Avond/weekend beschikbaarheid" value="Nee"> Nee</label>
+                    <label><input type="radio" name="Avond/weekend beschikbaarheid" value="In overleg"> In overleg</label><br>
+                </div>
+
+                <div class="form-field">
+                    <label for="portfolio">Link naar portfolio of eerdere content die je hebt gestyled:</label>
+                    <input type="text" id="portfolio" name="Portfolio of voorbeelden">
+                </div>
+
+                <div class="form-field">
+                    <label for="scenario1">Scenario 1: Je krijgt de opdracht om een carrousel post te stylen, maar het aangeleverde beeldmateriaal is van lage kwaliteit. Wat doe je?</label>
+                    <textarea id="scenario1" name="Scenario - Lage kwaliteit materiaal" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="scenario2">Scenario 2: De visuele stijl van een post wijkt af van de rest van de feed. De deadline is strak. Wat is je aanpak?</label>
+                    <textarea id="scenario2" name="Scenario - Stijlafwijking onder druk" rows="3"></textarea>
+                </div>
+
+                <!-- Verstuurknop -->
+                <div class="form-field">
+                    <button type="submit" class="btn btn--primary">🚀 Verstuur sollicitatie</button>
+                </div>
+            </form>
+
+            <p style="margin-top: 2rem;">
+                Problemen met verzenden? Mail handmatig naar 
+                <a href="mailto:recruitment@ravelinehq.com">recruitment@ravelinehq.com</a>.
+            </p>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- end page content-->
 
@@ -184,7 +225,7 @@
             <div class="column large-4 medium-5 tab-full">
                 <div class="footer-logo">
                     <a class="site-footer-logo" href="index.html">
-                        <img src="images/logo.png" alt="Homepage">
+                        <img src="../images/logo.png" alt="Homepage">
                     </a>
                 </div>  <!-- footer-logo -->
                 <p>
@@ -241,8 +282,8 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
 </body>
