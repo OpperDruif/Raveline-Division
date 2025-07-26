@@ -15,8 +15,8 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <!-- script
     ================================================== -->
@@ -49,17 +49,17 @@
     <header class="s-header">
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
+                <img src="../images/logo.png" alt="Homepage">
             </a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">The Division</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="merch.html">Merchandise</a></li>
-                <li><a href="vacature.html">Join the Tribe</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">The Division</a></li>
+                <li><a href="../events.html">Events</a></li>
+                <li><a href="../merch.html">Merchandise</a></li>
+                <li><a href="../vacature.html">Join the Tribe</a></li>
             </ul>
         </nav>
 
@@ -82,63 +82,111 @@
 
     <!-- Page content 
     ================================================== -->  
+<section class="page-content">
+    <div class="row">
+        <div class="column">
+            <h2 class="h1">Solliciteer voor: Visual Designer</h2>
+            <p>Laat je stijl spreken en breng onze identiteit tot leven. Vul onderstaand formulier in en laat zien wat je in huis hebt.</p>
 
-    <section class="page-content">
-        <div class="row">
-            <div class="content-block">
-                <p>
-                    <h3>Visual Designer</h3>
-                    Raveline Division is meer dan een community — het is een movement van style, sound en ondergrondse
-                    energie. Als Visual Designer help jij onze identiteit vorm te geven. Van krachtige visuals tot herkenbare
-                    branding: jouw werk bepaalt het gezicht van de Division.
-                </p>
-            </div>
+            <form action="https://formsubmit.co/recruitment@ravelinehq.com" method="POST" class="form">
+                <!-- Verborgen instellingen -->
+                <input type="hidden" name="_subject" value="Nieuwe sollicitatie – Visual Designer">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://opperdruif.github.io/Raveline-Division/Bedankt.html">
 
-            <div class="content-block">
-                <p>
-                    <h3>💼 Wat ga je doen?</h3>
-                    <li> Ontwerpen van visuals voor social media, discord, merchdrops en events.</li>
-                    <li> Vertalen van onze stijl en energie naar herkenbare grafische uitingen.</li>
-                    <li> Meedenken over campagnes, huisstijltoepassingen en storytelling in beeld.</li>
-                    <li> Samenwerken met content creators, videografen en motion designers.</li>
-                </p>
-            </div>
+                <!-- Invoervelden -->
+                <div class="form-field">
+                    <label for="naam">Naam:</label>
+                    <input type="text" id="naam" name="Naam" required>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>💥 Wat krijg je ervoor terug?</h3>
-                    <li> Een plek in de officiële Raveline Division Crew - jij wordt vereeuwigd als visual warrior.</li>
-                    <li> Toegang tot crew-uitjes, backstage vibes en speciale communitymomenten.</li>
-                    <li> De kans om je portfolio te vullen met werk dat impact maakt in de scene.</li>
-                    <li> Samenwerken in een creative omgeving met vrijheid, respect en ruimte voor eigen stijl.</li>
-                    <li> Je werk wordt zichtbaar verspreid op social media en in de festivalwereld.</li>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="email">E-mailadres:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>🙌 Wat we van jou verwachten</h3>
-                    <li> Je hebt gevoel voor stijl, detail en festival aesthetics.</li>
-                    <li> Je beheerst tools zoals photoshop, illustrator, canvo pro of figma.</li>
-                    <li> Je bent zelfstandig, neemt initiatief en kan werken binnen deadlines.</li>
-                    <li> Ervaring is mooi meegenomen - Motivatie en smaak zijn belangrijker.</li>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="motivatie">Wat motiveert jou om visueel voor Raveline Division aan de slag te gaan?</label>
+                    <textarea id="motivatie" name="Motivatie" rows="4" required></textarea>
+                </div>
 
-            <div class="content-block">
-                <p>
-                    <h3>🖤 Vrijwillig — maar niet vrijblijvend</h3>
-                    Deze functie is op vrijwillige basis, maar zeker niet vrijblijvend. je wordt een gewaardeerd onderdeel van een groeiende crew 
-                    en bouwt mee aan iets unieks. Geen loondienst, wél erkenning, ervaring en toegang tot een tribe waar creativiteit en connectie centraal staan.
-                    <br>
-                    <br>
-                    <h3>📩 Klaar om de visuals van Raveline te creëren?</h3>
-                    <a href="vacature-vragen/Vragen-VisualDesigner.html" class="btn btn--primary">📩 Solliciteer nu!</a> <br>
-                    <em>Rise through sound — and design the future.</em>
-                </p>
-            </div>
+                <div class="form-field">
+                    <label for="stijl">Hoe zou jij de visuele stijl van Raveline Division omschrijven?</label>
+                    <textarea id="stijl" name="Stijlanalyse" rows="3" required></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="tools">Met welke design tools werk je het liefst?</label>
+                    <input type="text" id="tools" name="Tools" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="ervaring">Welke ervaring heb je met branding, merchandise of visuele storytelling?</label>
+                    <textarea id="ervaring" name="Ervaring" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="inspiratie">Wat is je grootste inspiratiebron als designer?</label>
+                    <textarea id="inspiratie" name="Inspiratie" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="stijlmatch">Hoe zorg je ervoor dat jouw stijl aansluit bij de branding van een organisatie?</label>
+                    <textarea id="stijlmatch" name="Stijlmatch" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="aanpak">Je krijgt de opdracht om een festivalposter te maken in Raveline-stijl. Hoe pak je dit aan?</label>
+                    <textarea id="aanpak" name="Aanpak posterdesign" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="deadline">Hoe ga jij om met deadlines of last-minute verzoeken?</label>
+                    <textarea id="deadline" name="Omgaan met deadlines" rows="3"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <label for="uren">Gemiddeld beschikbare uren per week:</label>
+                    <input type="text" id="uren" name="Beschikbaarheid">
+                </div>
+
+                <div class="form-field">
+                    <label>Beschikbaar in de avond/weekend?</label>
+                    <label><input type="radio" name="Avond/weekend beschikbaarheid" value="Ja"> Ja</label>
+                    <label><input type="radio" name="Avond/weekend beschikbaarheid" value="Nee"> Nee</label>
+                    <label><input type="radio" name="Avond/weekend beschikbaarheid" value="In overleg"> In overleg</label><br>
+                </div>
+
+                <div class="form-field">
+                    <label>Waar ligt jouw voorkeur?</label>
+                    <label><input type="checkbox" name="Voorkeuren" value="Banners"> Banners</label>
+                    <label><input type="checkbox" name="Voorkeuren" value="Social visuals"> Social visuals</label>
+                    <label><input type="checkbox" name="Voorkeuren" value="Webdesign"> Webdesign</label>
+                    <label><input type="checkbox" name="Voorkeuren" value="Merchandise"> Merchandise</label>
+                    <label><input type="checkbox" name="Voorkeuren" value="Posters & flyers"> Posters & flyers</label>
+                    <label><input type="checkbox" name="Voorkeuren" value="Maakt mij niet uit"> Maakt mij niet uit</label>
+                </div>
+
+                <div class="form-field">
+                    <label for="portfolio">Portfolio of socials met jouw werk:</label>
+                    <input type="text" id="portfolio" name="Portfolio">
+                </div>
+
+                <!-- Verstuurknop -->
+                <div class="form-field">
+                    <button type="submit" class="btn btn--primary">🚀 Verstuur sollicitatie</button>
+                </div>
+            </form>
+
+            <p style="margin-top: 2rem;">
+                Problemen met verzenden? Mail handmatig naar 
+                <a href="mailto:recruitment@ravelinehq.com">recruitment@ravelinehq.com</a>.
+            </p>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- end page content-->
 
@@ -182,7 +230,7 @@
             <div class="column large-4 medium-5 tab-full">
                 <div class="footer-logo">
                     <a class="site-footer-logo" href="index.html">
-                        <img src="images/logo.png" alt="Homepage">
+                        <img src="../images/logo.png" alt="Homepage">
                     </a>
                 </div>  <!-- footer-logo -->
                 <p>
@@ -239,8 +287,8 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
 </body>
