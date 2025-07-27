@@ -3399,6 +3399,10 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/header-bgs/volunteer-header-bg-2000.jpg);
 }
 
+.page-header--merch {
+  background-image: url(../images/header-bgs/merch-header-bg-2000.jpg);
+}
+
 .page-header__content {
   position: relative;
 }
